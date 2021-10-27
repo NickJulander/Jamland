@@ -1,6 +1,10 @@
-# Socializer
-Mock of facebook
+## jamLand
 
+Here we have a jam app.
+
+To run this app, clone this repo.
+Cd into the repository.
+Type ng serve -o. 
 
 MEAN
   MongoDB
@@ -9,9 +13,8 @@ MEAN
   Node.JS (open source cross platform server) host front end and connects front to back
   
   
- Plan:
-    Doesnt have to be USEFUL!!!!!!
-    
+JamLand:
+  Frontend: Angular (run ng -serv
     
  Guitar app!
   I want an web applicaiton and a web app that will help me find scale+chord progression combinations
@@ -31,6 +34,5 @@ MEAN
     login
     the rest will primarily be logic... up untill the generate chord progression part
     
-          
-        
+     
  
