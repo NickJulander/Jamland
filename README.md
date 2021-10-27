@@ -16,23 +16,67 @@ MEAN
 JamLand:
   Frontend: Angular (run ng -serv
     
- Guitar app!
-  I want an web applicaiton and a web app that will help me find scale+chord progression combinations
-  
-  jist
-    The app has a libary and the capabilities to show me what chords and scales should be paired
-    You can save off chord progressions, create new ones, add reccordings???
-    Everything would need to be stored and associated with some account
-   
-   
-   Look... Let's get the guts up and running then we can take off.
-   
-   guts:
-    Setup the database you will use
-    create the template for the applicaiton
-     wire the front end to the back
-    login
-    the rest will primarily be logic... up untill the generate chord progression part
     
+    
+Version 1.0.0
+  -Features
+    Scale libary
+    Chord library
+    Chord progressions
+    Albums for saving:
+      scales, and chords and custom chord progressions
+      
+
+Navigation bar at top will be a drop down for the scale chord and chord progression libary.
+Work items:
+  create the home screen
+  create components for each of the libarires
+  Create the scales library
+  Create the chords libary
+  Create the chord progressions libary
+  
+
+
+
+I want an applicaitionm where users can see all chords, chord progressions, and scales. 
+When a user views a chords they can see all chord progressions with that chord and can filter on key and vibe, and they can see the scales that can be played in with that chord progression.
+
+
+Features:
+  scales
+  chords
+  chord progressions for scales
+  saved off scales and progressions
+  vibes for scales/chords
+  for each scale, have the ability to see what scales you can solo with off of notes
+  
+  
+  layout:
+    menu bar - 
+      --title
+        --two tabs in the center
+             --saved shit
+             --libary
      
- 
+     libary
+        --scales
+        --chords
+        --chord progressions
+      --filters
+        --by vibe
+        --by key
+        
+        
+
+
+      --view all
+         --able to browse through all scales and chords
+        
+      --see chords and scales by key
+        --scales within that key
+        --chords within that key
+            
+      --see chords and keys by vibe
+        --scales within that vibe
+        --chords within that vibe
+        
