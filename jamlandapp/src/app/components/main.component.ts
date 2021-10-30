@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import {MatToolbarModule} from '@angular/material/toolbar';
 
 @Component({
-  selector: 'app-jamland',
-  templateUrl: './jamland.component.html',
-  styleUrls: ['./jamland.component.css']
+  selector: 'app-main',
+  templateUrl: './main.component.html',
+  styleUrls: ['./main.component.css']
 })
-export class JamlandComponent implements OnInit {
+export class MainComponent implements OnInit {
 
   constructor() { }
 
