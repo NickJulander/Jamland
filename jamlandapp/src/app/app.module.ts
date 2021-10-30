@@ -9,7 +9,7 @@ import { MaterialModule } from './modules/material.module';
 import { MainComponent } from './components/main.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
-import { LibrarycardComponent } from './components/librarycard/librarycard.component';
+import { LibraryComponent } from './components/library/library.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,7 @@ import { LibrarycardComponent } from './components/librarycard/librarycard.compo
     MainComponent,
     HeaderComponent,
     HomeComponent,
-    LibrarycardComponent,
+    LibraryComponent,
     
   ],
   imports: [
