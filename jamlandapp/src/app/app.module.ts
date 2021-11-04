@@ -10,6 +10,10 @@ import { MainComponent } from './components/main.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { LibraryComponent } from './components/library/library.component';
+import { NavigationComponent } from './components/navigation/navigation.component';
+import { ScaleLibraryComponent } from './components/scale-library/scale-library.component';
+import { ChordLibraryComponent } from './components/chord-library/chord-library.component';
+import { MyJamComponent } from './components/my-jam/my-jam.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { LibraryComponent } from './components/library/library.component';
     HeaderComponent,
     HomeComponent,
     LibraryComponent,
-    
+    NavigationComponent,
+    ScaleLibraryComponent,
+    ChordLibraryComponent,
+    MyJamComponent,
+
   ],
   imports: [
     BrowserModule,

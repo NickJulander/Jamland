@@ -1,12 +1,5 @@
-
-<mat-grid-list cols="2" rowHeight="20em" gutterSize="5em">
-    <mat-grid-tile>
-        <a
-        routerLink='library'>
-        Libary of Scales, Chords, and Chord Progressions
-      </a>
-    </mat-grid-tile>
-    <mat-grid-tile>
-        Saved chords and scales.
+<mat-grid-list cols="1" rowHeight="15em">
+    <mat-grid-tile *ngFor="let nav of navigationComponents">
+        <app-navigation [navDetail]="nav"></app-navigation>
     </mat-grid-tile>
 </mat-grid-list>

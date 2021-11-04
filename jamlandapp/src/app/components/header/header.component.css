@@ -1,0 +1,21 @@
+mat-icon:hover{
+  color: lightgray;
+  cursor: pointer;
+}
+
+.spacåer {
+  flex: 1 1 auto;
+}
+
+.mat-toolbar {
+  position: relative;
+  z-index: 2;
+}
+
+.tbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}

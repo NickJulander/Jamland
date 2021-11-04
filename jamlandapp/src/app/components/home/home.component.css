@@ -1,6 +1,9 @@
-mat-grid-tile {
-    background: rgb(211, 211, 211);
-  }
-mat-grid-tile:hover {
-    background: rgb(143, 143, 143);
+.content {
+  padding: 16px;
+}
+
+.content > mat-card {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
 }
